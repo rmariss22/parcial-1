@@ -1,0 +1,26 @@
+class Person:
+    # __init__ is the constructor in Python (runs when the object is created)
+    def __init__(self):
+        self.name = "Mariana"
+        self.age = 18
+
+    # Method (action)
+    def say_hello(self):
+        print(f"Hi, I'm {self.name} and I'm {self.age} years old.")
+
+
+def main():
+    # Create an object
+    p1 = Person()
+
+    # Assign attributes
+    p1.name = "Mariana"
+    p1.age = 18
+
+    # Call method
+    p1.say_hello()
+
+
+# Run main() only if this file is executed directly (not imported)
+if __name__ == "__main__":
+    main()
